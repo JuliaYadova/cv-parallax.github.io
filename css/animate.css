@@ -3,23 +3,29 @@
   /* margin: 30vw auto; */
   width: fit-content;
   height: fit-content;
-  margin-right: 100px;
-  margin-bottom: -350px;
+  margin-right: 120px;
+  margin-bottom: -34vh;
 }
 
 .animated-bg {
-    opacity: 0;
+  opacity: 0;
 }
 
 @media (min-width: 480px) {
-    .animate {
-        display: none;
+  .animate {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+    #container {
+        margin-bottom: -18vh;
     }
 }
 
 .animate {
-    position: absolute;
-    height: 120px;
+  position: absolute;
+  height: 120px;
   text-align: center;
   color: #fff;
   font-size: 5em;
