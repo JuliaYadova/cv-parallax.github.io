@@ -124,6 +124,8 @@ canvas {
   outline: none;
   cursor: pointer;
   margin-top: calc(var(--index) * 2.5);
+  pointer-events:all;
+  z-index: 99;
 }
 .layer-4,
 .layer-5,
