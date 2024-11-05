@@ -87,6 +87,16 @@ canvas {
   line-height: 1.35em;
   margin-top: calc(var(--index) * 5.5);
 }
+
+@media (max-width: 480px) {
+    .layer-4 {
+      align-items: flex-start;
+    }
+    .hero-content {
+      margin-top: 33vh;
+    }
+}
+
 .hero-content span {
   display: block;
 }
@@ -127,7 +137,10 @@ canvas {
 .cat-img {
   position: absolute;
   height: 120px;
-
+  
+  @media (min-width: 480px) {
+    display: none;
+  }
   /* margin-top: 90%;
   margin-left: 10px; */
 }
